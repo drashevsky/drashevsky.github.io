@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+
+<title>Daniel Rashevsky&apos;s stuff</title>
+<link>https://mourner.github.io/tinyjam/test/fixtures/example_output</link>
+<description>Daniel Rashevsky's personal website.</description>
+<atom:link href="https://mourner.github.io/tinyjam/test/fixtures/example_output/rss.xml" rel="self" type="application/rss+xml" />
+
+
+</channel>
+</rss>
