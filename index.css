@@ -1,0 +1,32 @@
+body {
+    background: white;
+    color: black;
+    font: 16px/1.5 sans-serif;
+}
+.container {
+    max-width: 50%;
+    margin: 40px auto;
+}
+img.logo {
+    float: right;
+}
+a {
+    color: #0076DD;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+nav {
+    display: none;
+}
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+}

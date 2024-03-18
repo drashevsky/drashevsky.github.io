@@ -1,0 +1,24 @@
+<%- include('_header.ejs') -%>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About Me</a></li>
+    </ul>
+    <hr>
+</nav>
+<h1><%= data.title %></h1>
+<section>
+    <%- about.body %>
+</section>
+<section>
+    <h2>Blog posts</h2>
+    <% for (const name of Object.keys(posts).reverse()) { const {date, title, body} = posts[name]; -%>
+        <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
+        <p><%- body.trim().match(/\<p>(.+)<\/p>/)[1] %> [&hellip;]</p>
+    <% } -%>
+    <% if (Object.keys(posts).length == 0) { -%><p><i>No posts published.</i></p><% } -%>
+</section>
+
+<%- include('_footer.ejs') -%>
