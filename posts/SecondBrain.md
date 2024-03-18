@@ -116,7 +116,7 @@ In the future with the development of BCI technology, we may see the concepts in
 
 [https://medium.com/@elizabethmjoneswrites/im-building-a-second-brain-here-s-why-you-should-too-3ed777495689](https://medium.com/@elizabethmjoneswrites/im-building-a-second-brain-here-s-why-you-should-too-3ed777495689)
 
-[https://www.viewpure.com/RTI6Mxu3YiI](https://www.viewpure.com/RTI6Mxu3YiI?start=0&end=0)
+[https://www.youtube.com/watch?v=RTI6Mxu3YiI](https://www.youtube.com/watch?v=RTI6Mxu3YiI)
 
 ## More on Neuroscience and Productivity
 
