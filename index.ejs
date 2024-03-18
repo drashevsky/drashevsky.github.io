@@ -13,7 +13,7 @@
     <%- about.body %>
 </section>
 <section>
-    <h2>Blog posts</h2>
+    <h2>Writing</h2>
     <% for (const name of Object.keys(posts).reverse()) { const {date, title, body} = posts[name]; -%>
         <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
         <p><%- body.trim().match(/\<p>(.+)<\/p>/)[1] %> [&hellip;]</p>
