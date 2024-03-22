@@ -2,11 +2,11 @@ Hello 👋 and welcome to my page! My name is Daniel, and I am a student at the 
 
 I would describe myself as a generalist and visual learner who likes tinkering with technology. Some of my interests include playing with computers, learning about the world around me, reading, playing Go ([Baduk](https://www.learn-go.net/)), posting stuff to Github, building RC aircraft, keeping up with emerging tech trends, etc, etc.  
 
-If you are interested in my work, check out some recent projects below. Currently, this involves an exploration of [Second Brain](https://fortelabs.com/blog/basboverview/) productivity tools as I build [TensorNote](https://github.com/drashevsky/tensornote)!
+If you are interested in my work, check out some recent projects below. Currently, this involves an exploration of [Second Brain](https://fortelabs.com/blog/basboverview/) productivity tools as I build [TensorNote](https://drashevsky.github.io/tensornote/)!
 
 ## Personal Projects:
 
-[TensorNote](https://github.com/drashevsky/tensornote): a self-organizing notebook
+[TensorNote](https://drashevsky.github.io/tensornote/): a self-organizing notebook
 
 [SketchTacToe](https://drashevsky.github.io/SketchTacToe-App/): a responsive tic-tac-toe game with SVG vector graphics and an AI
 
