@@ -12,7 +12,7 @@
      <title><%= title %></title>
      <link><%= data.link %>/posts/<%= name %>.html</link>
      <guid><%= data.link %>/posts/<%= name %>.html</guid>
-     <pubDate><%= date.toUTCString() %></pubDate>
+     <published><%= date.toUTCString() %></published>
      <description><![CDATA[<%- body.trim() %>]]></description>
 </item>
 <% } -%>
