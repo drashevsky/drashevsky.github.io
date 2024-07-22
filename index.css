@@ -25,8 +25,13 @@ nav > ul {
     list-style-type: none;
     padding-left: 0;
 }
-
 nav > ul > li {
     display: inline-block;
     margin-right: 10px;
+}
+svg {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px;
 }
