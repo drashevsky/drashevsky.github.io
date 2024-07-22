@@ -11,7 +11,7 @@
      <title>Renovating the Ivory Tower</title>
      <link>https://drashevsky.github.io/posts/IvoryTower.html</link>
      <guid>https://drashevsky.github.io/posts/IvoryTower.html</guid>
-     <pubdate>Sat, 20 Jul 2024 00:00:00 GMT</pubdate>
+     <pubDate>Sat, 20 Jul 2024 00:00:00 GMT</pubDate>
      <description><![CDATA[<p>Let&#39;s be honest. Academia these days is floundering. In the STEM world, real scientific advances are being stifled by the replication crisis, toxic environments within labs, PHD burnout, and the politics of grant writing. Research into breakthroughs such as immunotherapy and RNA vaccines ends up being overlooked where it could otherwise have impacted millions of lives.</p>
 <p>The humanities front, meanwhile, is plagued with issues such as the lack of empirical and quantitative research, erosion of neutrality, lousy standards on research quality, and a single-minded adherence to ideology. They stifle research into everything that&#39;s off the party line, leaving us with a poorer understanding of our society and culture.</p>
 <p>From both sides, the ivory tower is caved in by extreme politicization, censorship, the silencing of minority views, the tenure caste system, authoritarian and bloated administrations, grade inflation, credentialism, and entrenched discrimination that keeps college presidents occupied with lawsuits, Department of Education investigations, and Congressional hearings.</p>
@@ -26,7 +26,7 @@
      <title>The LLM Hype Bubble, and What Comes Next</title>
      <link>https://drashevsky.github.io/posts/LLMHypeBubble.html</link>
      <guid>https://drashevsky.github.io/posts/LLMHypeBubble.html</guid>
-     <pubdate>Sat, 29 Jun 2024 00:00:00 GMT</pubdate>
+     <pubDate>Sat, 29 Jun 2024 00:00:00 GMT</pubDate>
      <description><![CDATA[<p>Nobody disputes the usefulness of large language models. LLMs can do &quot;intellectual grunt work&quot;, such as suggesting a well-placed word for an essay or filling in the background of an artwork. This is a huge value add and breakthrough because it cuts the effort needed to produce a creative work in half, even if it makes mistakes (hallucinations).</p>
 <p>The problem is, LLMs are <strong>generative</strong>, not <strong>creative</strong>. They cannot think <strong>originally</strong>, only relying on situations they&#39;ve already seen to navigate the world. They struggle when they encounter a new or unexpected scenario. This is because they possess no logical/intuitive understanding of it, whether they need to completing the structure of a paper or determine how to architect a complex service keeping track of weeds that need to be zapped with lasers. Since the world is infinitely complex, the point of any creative process is responding to new situations with novel and original thinking.</p>
 <p>If I read 100 papers on the central message of Shakespeare&#39;s Macbeth, I can probably plagiarize a good paper on the subject. But if I try to write an analysis on why Shakespeare used iambic pentameter and how it relates to British poetry development in the late 16th century by reading those same 100 papers, I will flounder.</p>
@@ -40,7 +40,7 @@
      <title>The Second Brain (Information Overload) Problem</title>
      <link>https://drashevsky.github.io/posts/SecondBrain.html</link>
      <guid>https://drashevsky.github.io/posts/SecondBrain.html</guid>
-     <pubdate>Mon, 18 Mar 2024 00:00:00 GMT</pubdate>
+     <pubDate>Mon, 18 Mar 2024 00:00:00 GMT</pubDate>
      <description><![CDATA[<p>Smart people and entrepreneurs need to consume, generate, and process massive amounts of information these days to maximize their success in the knowledge economy. These energetic people are bursting at the seams with thoughts, ideas, commentary, newly learned subjects, and more. It becomes hard to stay on top of things due to <strong>information overload</strong>: the exponentially rising difficulty and time commitment of organizing large amounts of diverse information across different services/platforms.</p>
 <h2 id="problems-of-generic-note-apps">Problems of generic note apps</h2>
 <p>Note apps are limited in scope, used for narrow topics like class notes or shopping lists where a linear set of similar sized items, or multiple linear sets behind tags/folders allows for quick scrolling and retrieval. When there are multiple topics or information comes in different sizes a note app quickly becomes cluttered and unorganized, exponentially increasing the time needed to organize &amp; retrieve it.</p>
