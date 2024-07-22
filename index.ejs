@@ -13,9 +13,12 @@
     <%- about.body %>
 </section>
 <section>
-    <h2>Writing</h2>
-    <% for (const name of Object.keys(posts).reverse()) { const {date, title, body} = posts[name]; -%>
-        <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
+    <h2>Thoughts</h2>
+    <% for (const name of Object.keys(posts).sort((p1, p2) => p1.date - p2.date)) { -%>
+    <% const {date, title, body} = posts[name]; -%>
+        <h3>
+            <a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toUTCString().split(" ").slice(0, -2).join(" ") %>
+        </h3>
         <p><%- body.trim().match(/\<p>(.+)<\/p>/)[1] %> [&hellip;]</p>
     <% } -%>
     <% if (Object.keys(posts).length == 0) { -%><p><i>No posts published.</i></p><% } -%>
