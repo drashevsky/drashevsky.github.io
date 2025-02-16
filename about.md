@@ -1,8 +1,8 @@
-Hello 👋 and welcome to my page! My name is Daniel, and I am a software engineer interested in systems programming (Rust, C, etc.) and fullstack development.
+Hello 👋 and welcome to my page! My name is Daniel, and I'm a software engineer interested in systems programming (Rust, C, etc.)
 
-I would describe myself as a generalist and visual learner who likes tinkering with technology. Some of my interests include playing with computers, learning about the world around me, reading, playing Go ([Baduk](https://www.learn-go.net/)), posting stuff to Github, building RC aircraft, keeping up with emerging tech trends, etc, etc.  
+I am a generalist and visual learner. I like to spend my time tinkering with computers, reading nonfiction that's written like fiction, playing Go ([Baduk](https://www.learn-go.net/)), building crazy IRL contraptions / GitHub projects, stumbling around the Greater Seattle urban area, lurking on [HN](https://news.ycombinator.com), etc, etc.
 
-## Personal Projects:
+## Some of my projects:
 
 [TensorNote](https://drashevsky.github.io/tensornote/): a self-organizing notebook
 
