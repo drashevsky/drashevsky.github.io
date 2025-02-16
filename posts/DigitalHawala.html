@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Daniel Rashevsky</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../index.css">
+<link rel="alternate" type="application/rss+xml" href="rss.xml" title="../Daniel Rashevsky RSS">
+<style></style>
+</head>
+<body>
+<div class="container">
+<p><a href="../index.html">&larr; Daniel Rashevsky</a></p>
+
+<h1>Half-Baked Ideas - Digital Hawala</h1>
+<p><a href="https://en.wikipedia.org/wiki/Hawala">Hawala</a> is an informal money transmission system popular in the Middle East, Africa, and India. At its most basic, it relies on two reputable brokers establishing ties with each other, and agreeing to deliver their own money to recipients upon request. A sender can then ask one broker to send money to somebody far away by depositing money, getting the broker to ask their counterparty broker to discharge their own funds, and then adding the deposited funds to the counterparty broker&#39;s &quot;balance&quot;. All for a fee.</p>
+<p>I propose <strong>digital hawala</strong> - a distributed reputation sharing and telegraphic balance transfer system. Unlike cryptocurrency, this system is <strong>built around trust</strong>, rather than trying to <strong>eliminate all trust</strong>. At the end of the day, all money is given value by people choosing to value it. People choose to value certain kinds of money and transact with it based on faith that they will be able to complete transactions with it, and successfully obtain goods and services. The financial system relies on centralization because trust is the bedrock of any successful transaction, and trusted brokers attract more people willing to transact with them. Eliminating all trust and implementing a completely adversarial system defeats the whole point of finance. This is seen in the development of centralized exchanges, and the hard consequences for not perfectly securing crypto / perfectly coding smart contracts. However, this does not mean the financial system can&#39;t take advantage of decentralization or web technologies.</p>
+<p>Here is one example of how digital hawala can work:</p>
+<ul>
+<li>Digital hawala operates as a distributed trust network, where every node has:<ul>
+<li>Public/private key pair</li>
+<li>A ledger of trust scores on other nodes ranging from 0 to 1<ul>
+<li>0 - cannot be trusted</li>
+<li>1 - completes all network actions/transactions faithfully (even if they are illegal)</li>
+</ul>
+</li>
+<li>&quot;Balances&quot; open with other nodes</li>
+</ul>
+</li>
+<li>The less other nodes judge your trust score to be, the less inclined they will be to increase your balances with them / deliver cash on your behalf</li>
+<li>To transfer some <em>part of a balance</em>, a node contacts a counterparty node that it mutually trusts and has a balance with, and requests <em>part of it</em> to be delivered to the destination in cash</li>
+<li>These transactions can be chained trusted node to trusted node if the source and destination nodes don&#39;t directly trust each other, which is more likely as geographic distance increases</li>
+<li>Every node starts with a trust score of 0 and infinitely low spend limits, limiting it to increasing its balances / trust score with other nodes by:<ul>
+<li>Sending the counterparty nodes real dollars</li>
+<li>Sending real dollars to recipients on behalf of the counterparty nodes to build up balances with them</li>
+</ul>
+</li>
+<li>Nodes earn trust by<ul>
+<li>Completing successful transactions</li>
+<li>Honestly reporting trust scores</li>
+</ul>
+</li>
+<li>This incentivizes other nodes to &quot;vouch&quot; for them. Trust is calculated by asking other trusted nodes for their opinions of the target node</li>
+<li>System is built in a way to incentivize:<ul>
+<li>Completing honest transactions (double spending, failing to complete transactions, disputes, etc. lowers trust score)</li>
+<li>Honestly reporting trust score (if a node lies about another node&#39;s trust score, this discrepancy w/ other reports causes requesting nodes to penalize it)</li>
+</ul>
+</li>
+</ul>
+<p>The decentralized nature of this system, as well as incentives that drive nodes to honestly play by the rules / complete transactions, makes it efficient and resilient.</p>
+
+<p><em>Posted on Sun, 16 Feb 2025.</em></p>
+
+<hr>
+<p>
+&copy; 2025 Daniel Rashevsky. All rights reserved.
+&nbsp;<a href="https://www.github.com/drashevsky">GitHub</a> 
+&nbsp;<a href="https://gist.github.com/drashevsky/">Gists</a>
+&nbsp;<a href="./rss.xml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M7.5,15A1.5,1.5 0 0,0 6,16.5A1.5,1.5 0 0,0 7.5,18A1.5,1.5 0 0,0 9,16.5A1.5,1.5 0 0,0 7.5,15M6,10V12A6,6 0 0,1 12,18H14A8,8 0 0,0 6,10M6,6V8A10,10 0 0,1 16,18H18A12,12 0 0,0 6,6Z" /></svg></a>
+</p>
+</div>
+</body>
+</html>
