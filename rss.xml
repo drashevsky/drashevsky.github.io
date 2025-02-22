@@ -16,7 +16,7 @@
 <p>I propose <strong>digital hawala</strong> - a distributed reputation sharing and telegraphic balance transfer system. Unlike cryptocurrency, this system is <strong>built around trust</strong>, rather than trying to <strong>eliminate all trust</strong>. At the end of the day, all money is given value by people <strong>choosing</strong> to value it. People choose to value certain kinds of money and transact with it based on faith that they will be able to successfully obtain goods and services. The financial system relies on centralization because trust is the bedrock of any successful transaction, and trusted brokers attract more people willing to transact with them. Eliminating all trust and implementing a completely adversarial system defeats the whole point of finance. This is seen in the development of centralized crypto exchanges, and the hard consequences of not perfectly securing crypto / smart contracts. However, this does not mean the financial system can&#39;t take advantage of decentralization or web technologies.</p>
 <p>Here is one example of how digital hawala can work:</p>
 <ul>
-<li>Digital hawala operates as a distributed trust network, where every node has:<ul>
+<li>Digital hawala operates as a distributed trust network [0], where every node has:<ul>
 <li>Public/private key pair</li>
 <li>A ledger of trust scores on other nodes ranging from 0 to 1<ul>
 <li>0 - cannot be trusted</li>
@@ -46,7 +46,8 @@
 </ul>
 </li>
 </ul>
-<p>The decentralized nature of this system, as well as incentives that drive nodes to honestly play by the rules / complete transactions, makes it efficient and resilient.</p>]]></description>
+<p>The decentralized nature of this system, as well as incentives that drive nodes to honestly play by the rules / complete transactions, makes it efficient and resilient.</p>
+<p>[0] <a href="https://en.wikipedia.org/wiki/Web_of_trust">https://en.wikipedia.org/wiki/Web_of_trust</a></p>]]></description>
 </item>
 <item>
      <title>Renovating the Ivory Tower</title>
