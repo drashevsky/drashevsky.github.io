@@ -8,7 +8,7 @@ date: 2025-02-16
 I propose **digital hawala** - a distributed reputation sharing and telegraphic balance transfer system. Unlike cryptocurrency, this system is **built around trust**, rather than trying to **eliminate all trust**. At the end of the day, all money is given value by people **choosing** to value it. People choose to value certain kinds of money and transact with it based on faith that they will be able to successfully obtain goods and services. The financial system relies on centralization because trust is the bedrock of any successful transaction, and trusted brokers attract more people willing to transact with them. Eliminating all trust and implementing a completely adversarial system defeats the whole point of finance. This is seen in the development of centralized crypto exchanges, and the hard consequences of not perfectly securing crypto / smart contracts. However, this does not mean the financial system can't take advantage of decentralization or web technologies.
 
 Here is one example of how digital hawala can work:
-- Digital hawala operates as a distributed trust network, where every node has:
+- Digital hawala operates as a distributed trust network [0], where every node has:
     - Public/private key pair
     - A ledger of trust scores on other nodes ranging from 0 to 1
         - 0 - cannot be trusted
@@ -29,3 +29,5 @@ Here is one example of how digital hawala can work:
     - Honestly reporting trust score (if a node lies about another node's trust score, this discrepancy w/ other reports causes requesting nodes to penalize it)
 
 The decentralized nature of this system, as well as incentives that drive nodes to honestly play by the rules / complete transactions, makes it efficient and resilient.
+
+[0] https://en.wikipedia.org/wiki/Web_of_trust
